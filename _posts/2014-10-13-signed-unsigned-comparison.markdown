@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "Comparison of unsigned integers to signed integers"
 date:   2014-10-13
 categories: C puzzle integer signed unsigned
