@@ -73,9 +73,7 @@ The `ja` instruction is the instruction we are looking at. `ja` does an **unsign
 
 Lets change our last C program to explicitly cast `TOTAL_ELEMENTS` to a signed integer.
 {% highlight C %}
-// snip
     if (d <= (signed int)(TOTAL_ELEMENTS-2)) {
-// snip
 {% endhighlight %}
 
 The resulting assembly looks as follows.
