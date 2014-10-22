@@ -9,7 +9,7 @@ Today I had to edit a very large (>50GiB) database dump. Vim wouldn't load it, a
 
 Now, there is probably a Vim plugin that enables you to load large files in chunks, but I didn't want to install anything on the machine I was on, so that limited my options.
 
-After some googling I finally found a solution which uses `less` and it's pipe functionality. The relevant part in the man-page looks like this:
+After some googling I finally found a solution which uses `less` and its pipe functionality. The relevant part in the man-page looks like this:
 
 {% highlight man %}
 | <m> shell-command
