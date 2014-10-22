@@ -31,3 +31,5 @@ cat > output
 The example above opened the file in less, which is _way_ faster than in Vim. Probably because less doesn't try to load the entire file in memory. Then it moves the cursor 20 lines downwards, and pipes everything from the cursor till the end of the file to `cat > output`.
 
 <sub>... I'm still waiting on the file to finish writing to disk btw :D</sub>
+
+Of course, the `$` mark can be replaced by a mark you create yourself. For instance, you could do `ma` in less, then move the cursor to another point in the file and use `|a` to pipe everything from the current cursor to your own mark.
